@@ -1,0 +1,66 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Servidor.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="StringConexionWeb" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;server=winay.com.ar;User Id=winay_winay; password=R[bZ6)cYq_e5; database=winay_crecer; port=3306;SSL Mode=0;&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">server=winay.com.ar;User Id=winay_winay; password=R[bZ6)cYq_e5; database=winay_crecer; port=3306;SSL Mode=0;</Value>
+    </Setting>
+    <Setting Name="StringConexionNave7" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Initial Catalog=Crecer_3;Persist Security Info=True;User ID=sa;Password=030302;Data Source=&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Initial Catalog=Crecer_3;Persist Security Info=True;User ID=sa;Password=030302;Data Source=</Value>
+    </Setting>
+    <Setting Name="StringConexionVillaMaria" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Initial Catalog=Crecer_4;Persist Security Info=True;User ID=sa;Password=030302;Data Source=&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Initial Catalog=Crecer_4;Persist Security Info=True;User ID=sa;Password=030302;Data Source=</Value>
+    </Setting>
+    <Setting Name="StringConexionRioCuarto" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Initial Catalog=Crecer_5;Persist Security Info=True;User ID=sa;Password=030302;Data Source=&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Initial Catalog=Crecer_5;Persist Security Info=True;User ID=sa;Password=030302;Data Source=</Value>
+    </Setting>
+    <Setting Name="StringConexionSucursal6" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Initial Catalog=Crecer_7;Persist Security Info=True;User ID=sa;Password=030302;Data Source=&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Initial Catalog=Crecer_7;Persist Security Info=True;User ID=sa;Password=030302;Data Source=</Value>
+    </Setting>
+    <Setting Name="StringConexionIntegracion" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Initial Catalog=Crecer_Unificado;Persist Security Info=True;User ID=sa;Password=030302;Data Source=&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Initial Catalog=Crecer_Unificado;Persist Security Info=True;User ID=sa;Password=030302;Data Source=</Value>
+    </Setting>
+    <Setting Name="StringConexionWiki" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Initial Catalog=Crecer_2;Persist Security Info=True;User ID=sa;Password=030302;Data Source=&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Initial Catalog=Crecer_2;Persist Security Info=True;User ID=sa;Password=030302;Data Source=</Value>
+    </Setting>
+    <Setting Name="StringConexion" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Initial Catalog=Crecer;Persist Security Info=True;User ID=sa;Password=030302;Data Source=&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Initial Catalog=Crecer;Persist Security Info=True;User ID=sa;Password=030302;Data Source=</Value>
+    </Setting>
+    <Setting Name="StringConexionGuias" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Initial Catalog=Guias;Persist Security Info=True;User ID=sa;Password=030302;Data Source=</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

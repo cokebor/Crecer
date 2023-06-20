@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5B43A5E5-ECD3-4C76-B3FD-2ADAA5370EAD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EntidadesInformes</RootNamespace>
+    <AssemblyName>EntidadesInformes</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Caja.cs" />
+    <Compile Include="CajaCuentaBancaria.cs" />
+    <Compile Include="CajaDetalles.cs" />
+    <Compile Include="CajaEfectivo.cs" />
+    <Compile Include="Cheques.cs" />
+    <Compile Include="ChequesMovimientos.cs" />
+    <Compile Include="ComprobantesDeVenta.cs" />
+    <Compile Include="DebitoCredito.cs" />
+    <Compile Include="Empleados.cs" />
+    <Compile Include="EncabezadoFacturaCompra.cs" />
+    <Compile Include="EncabezadoLiquidacionCliente.cs" />
+    <Compile Include="EncabezadoRemitoProveedor.cs" />
+    <Compile Include="EncabezadoRemitoSucursal.cs" />
+    <Compile Include="EnvioProductos.cs" />
+    <Compile Include="FacturaCompra.cs" />
+    <Compile Include="FacturaCompra_Impuestos.cs" />
+    <Compile Include="Gastos.cs" />
+    <Compile Include="IngresosBrutos.cs" />
+    <Compile Include="LiquidacionesClientesPendientes.cs" />
+    <Compile Include="LiquidacionesDetalles.cs" />
+    <Compile Include="LiquidacionesClientes.cs" />
+    <Compile Include="LiquidacionesProveedoresPorLote.cs" />
+    <Compile Include="LiquidacionesProveedores.cs" />
+    <Compile Include="MermasInformes.cs" />
+    <Compile Include="FondoComunInversion.cs" />
+    <Compile Include="MovimientosCuentasCorrientesImputados.cs" />
+    <Compile Include="MovimientosCuentasCorrientes.cs" />
+    <Compile Include="CuentasCorrientesClientes.cs" />
+    <Compile Include="DetalleLiquidacionesMerma.cs" />
+    <Compile Include="DetalleLiquidacionProveedores.cs" />
+    <Compile Include="EncabezadoLiquidacionProveedor.cs" />
+    <Compile Include="EncabezadoPagoCliente.cs" />
+    <Compile Include="EncabezadoPagoProveedor.cs" />
+    <Compile Include="IvaCompras.cs" />
+    <Compile Include="IvaVentas.cs" />
+    <Compile Include="LibroMayor.cs" />
+    <Compile Include="MovimientosSinCierre.cs" />
+    <Compile Include="PagoChequesRechazados.cs" />
+    <Compile Include="PagoCheques.cs" />
+    <Compile Include="PagoImpuesto.cs" />
+    <Compile Include="PagoEfectivo.cs" />
+    <Compile Include="PagoImpuestos.cs" />
+    <Compile Include="PagoImputacion.cs" />
+    <Compile Include="Percepciones.cs" />
+    <Compile Include="PreciosLotes.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Proveedores.cs" />
+    <Compile Include="RemitoClienteInforme.cs" />
+    <Compile Include="RemitoProveedorSinFactura.cs" />
+    <Compile Include="RemitosPendientesDeLiquidar.cs" />
+    <Compile Include="RemitosSucursal.cs" />
+    <Compile Include="Retenciones.cs" />
+    <Compile Include="RetencionesPagos.cs" />
+    <Compile Include="StockLoteYPuesto.cs" />
+    <Compile Include="StockPorCanal.cs" />
+    <Compile Include="SumaYSaldo.cs" />
+    <Compile Include="Asientos.cs" />
+    <Compile Include="ClienteFacturaCompra.cs" />
+    <Compile Include="DetallleFacturaVenta.cs" />
+    <Compile Include="EncabezadoFacturaVenta.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tranferencia.cs" />
+    <Compile Include="TransferenciasRecibidas.cs" />
+    <Compile Include="Utilidad.cs" />
+    <Compile Include="VentasEmpleadoDetalle.cs" />
+    <Compile Include="VentasEmpleados.cs" />
+    <Compile Include="VentasPorProductoDetallado.cs" />
+    <Compile Include="VentasPorProducto.cs" />
+    <Compile Include="VentasPorLote.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Entidades\Entidades.csproj">
+      <Project>{85d4f15a-9048-4ddd-ad4d-ab8991b7b115}</Project>
+      <Name>Entidades</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utilidades\Utilidades.csproj">
+      <Project>{8628ff32-539e-44ec-9cb2-5aac5f6dfea7}</Project>
+      <Name>Utilidades</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\DataSources\Cheques.datasource" />
+    <None Include="Properties\DataSources\ClienteFacturaCompra.datasource" />
+    <None Include="Properties\DataSources\CuentasCorrientesClientes.datasource" />
+    <None Include="Properties\DataSources\DebitoCredito.datasource" />
+    <None Include="Properties\DataSources\DetalleLiquidacionesMerma.datasource" />
+    <None Include="Properties\DataSources\EncabezadoLiquidacionCliente.datasource" />
+    <None Include="Properties\DataSources\EncabezadoLiquidacionProveedor.datasource" />
+    <None Include="Properties\DataSources\EncabezadoRemitoProveedor.datasource" />
+    <None Include="Properties\DataSources\FacturaCompra_Impuestos.datasource" />
+    <None Include="Properties\DataSources\FacturaCompra_Informe.datasource" />
+    <None Include="Properties\DataSources\IvaCompras.datasource" />
+    <None Include="Properties\DataSources\LiquidacionesProveedoresPorLote.datasource" />
+    <None Include="Properties\DataSources\PagoCheques.datasource" />
+    <None Include="Properties\DataSources\PagoEfectivo.datasource" />
+    <None Include="Properties\DataSources\PagoImputacion.datasource" />
+    <None Include="Properties\DataSources\RemitosPendientesDeLiquidar.datasource" />
+    <None Include="Properties\DataSources\RemitosSucursal.datasource" />
+    <None Include="Properties\DataSources\Retenciones.datasource" />
+    <None Include="Properties\DataSources\StockLoteYPuesto.datasource" />
+    <None Include="Properties\DataSources\SumaYSaldo.datasource" />
+    <None Include="Properties\DataSources\Tranferencia.datasource" />
+    <None Include="Properties\DataSources\VentasPorLote.datasource" />
+    <None Include="Properties\DataSources\VentasPorProductoDetallado.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

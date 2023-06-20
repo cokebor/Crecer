@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B33BC552-3994-47F5-AAEA-C309B61E8483}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Logica</RootNamespace>
+    <AssemblyName>Logica</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DatosVillaMaria.Fakes">
+      <HintPath>FakesAssemblies\DatosVillaMaria.Fakes.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Adelanto.cs" />
+    <Compile Include="Asiento.cs" />
+    <Compile Include="AsientoTemp.cs" />
+    <Compile Include="Backup.cs" />
+    <Compile Include="FechaFeriado.cs" />
+    <Compile Include="Licencia.cs" />
+    <Compile Include="TipoLicencia.cs" />
+    <Compile Include="ConciliacionesProveedores.cs" />
+    <Compile Include="PrestamoBancario.cs" />
+    <Compile Include="FrecuenciaDePago.cs" />
+    <Compile Include="PeriodoDeGracia.cs" />
+    <Compile Include="SistemaAmortizacion.cs" />
+    <Compile Include="Informes.cs" />
+    <Compile Include="Regimen.cs" />
+    <Compile Include="BancoRechazos.cs" />
+    <Compile Include="CambiosChequesProveedores.cs" />
+    <Compile Include="CambiosCheques.cs" />
+    <Compile Include="Canal.cs" />
+    <Compile Include="CategoriaProveedor.cs" />
+    <Compile Include="Fondo.cs" />
+    <Compile Include="Inversion.cs" />
+    <Compile Include="LibreDisponibilidadAsociado.cs" />
+    <Compile Include="ConceptosAsociadosASueldos.cs" />
+    <Compile Include="ConciliacionesTransacciones.cs" />
+    <Compile Include="RetencionAsociacion.cs" />
+    <Compile Include="ConceptoAsociado.cs" />
+    <Compile Include="Devengamiento.cs" />
+    <Compile Include="Movimiento.cs" />
+    <Compile Include="Caja.cs" />
+    <Compile Include="Concepto.cs" />
+    <Compile Include="Periodo.cs" />
+    <Compile Include="Salario.cs" />
+    <Compile Include="Secuencia.cs" />
+    <Compile Include="SucursalCliente.cs" />
+    <Compile Include="TipoContribuyente.cs" />
+    <Compile Include="TipoDeTarjeta.cs" />
+    <Compile Include="TipoDocumento.cs" />
+    <Compile Include="TipoDocumentoCaja.cs" />
+    <Compile Include="TipoEstadoValor.cs" />
+    <Compile Include="Cheque.cs" />
+    <Compile Include="CierreCaja.cs" />
+    <Compile Include="Cliente.cs" />
+    <Compile Include="Comunicacion.cs" />
+    <Compile Include="CuentaBancaria.cs" />
+    <Compile Include="CuentaContable.cs" />
+    <Compile Include="Ejercicio.cs" />
+    <Compile Include="Empleado.cs" />
+    <Compile Include="Empresa.cs" />
+    <Compile Include="FacturaCompra.cs" />
+    <Compile Include="Factura.cs" />
+    <Compile Include="FacturaDetalle.cs" />
+    <Compile Include="FormaDePago.cs" />
+    <Compile Include="GrupoDeUsuario.cs" />
+    <Compile Include="GrupoMenu.cs" />
+    <Compile Include="Impuesto.cs" />
+    <Compile Include="Integracion.cs" />
+    <Compile Include="Localidad.cs" />
+    <Compile Include="Lote.cs" />
+    <Compile Include="Menu.cs" />
+    <Compile Include="Moneda.cs" />
+    <Compile Include="MovimientoBancario.cs" />
+    <Compile Include="MovStock_Lote.cs" />
+    <Compile Include="Novedad.cs" />
+    <Compile Include="Numerador.cs" />
+    <Compile Include="ObraSocial.cs" />
+    <Compile Include="Banco.cs" />
+    <Compile Include="CajaInicial.cs" />
+    <Compile Include="PagoCliente.cs" />
+    <Compile Include="Pago.cs" />
+    <Compile Include="TipoInversiones.cs" />
+    <Compile Include="TipoMovimientoBancario.cs" />
+    <Compile Include="PorcentajeIva.cs" />
+    <Compile Include="Pais.cs" />
+    <Compile Include="Permiso.cs" />
+    <Compile Include="Producto.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Proveedor.cs" />
+    <Compile Include="Provincia.cs" />
+    <Compile Include="Puesto.cs" />
+    <Compile Include="PuestoCaja.cs" />
+    <Compile Include="Merma.cs" />
+    <Compile Include="RemitoSucursal.cs" />
+    <Compile Include="RemitoProveedor.cs" />
+    <Compile Include="RemitoCliente.cs" />
+    <Compile Include="RubroProducto.cs" />
+    <Compile Include="Sucursal.cs" />
+    <Compile Include="TipoDoc.cs" />
+    <Compile Include="TipoDocumentoProveedor.cs" />
+    <Compile Include="TipoDocumentoCliente.cs" />
+    <Compile Include="TipoInscripcion.cs" />
+    <Compile Include="TipoRemitoCliente.cs" />
+    <Compile Include="TipoRemitoProveedor.cs" />
+    <Compile Include="TipoSalario.cs" />
+    <Compile Include="TiposAsientos.cs" />
+    <Compile Include="Transporte.cs" />
+    <Compile Include="Usuario.cs" />
+    <Compile Include="Utilidad.cs" />
+    <Compile Include="Venta.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DatosGuias\DatosGuias.csproj">
+      <Project>{02f503d6-d24a-4d25-bd38-4bafbaa8f584}</Project>
+      <Name>DatosGuias</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DatosIntegracion\DatosIntegracion.csproj">
+      <Project>{45e3234a-e170-4aec-98a1-1a3fb55685e8}</Project>
+      <Name>DatosIntegracion</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DatosNave7\DatosNave7.csproj">
+      <Project>{037cb2e5-38ac-4c81-97e0-8c3935cfc297}</Project>
+      <Name>DatosNave7</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DatosRioCuarto\DatosRioCuarto.csproj">
+      <Project>{f37dea71-5816-45db-8649-5123ee10627e}</Project>
+      <Name>DatosRioCuarto</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DatosSucursal6\DatosSucursal6.csproj">
+      <Project>{f54f1f44-cbb3-47d8-8131-80db0fb54453}</Project>
+      <Name>DatosSucursal6</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DatosVillaMaria\DatosVillaMaria.csproj">
+      <Project>{9a704314-58b1-40a6-8c40-b5b715d31b09}</Project>
+      <Name>DatosVillaMaria</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DatosWiki\DatosWiki.csproj">
+      <Project>{edd7344f-016c-4dfd-8fed-1423327e58ef}</Project>
+      <Name>DatosWiki</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Datos\Datos.csproj">
+      <Project>{8370b48d-db32-4663-beee-40765d941878}</Project>
+      <Name>Datos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entidades\Entidades.csproj">
+      <Project>{85d4f15a-9048-4ddd-ad4d-ab8991b7b115}</Project>
+      <Name>Entidades</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Servidor\Servidor.csproj">
+      <Project>{412D1798-79A6-440E-B71A-1B13C854EAE3}</Project>
+      <Name>Servidor</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utilidades\Utilidades.csproj">
+      <Project>{8628ff32-539e-44ec-9cb2-5aac5f6dfea7}</Project>
+      <Name>Utilidades</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

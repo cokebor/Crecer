@@ -1,0 +1,4 @@
+SELECT TABLE_NAME
+from Information_Schema.Tables
+WHERE TABLE_CATALOG='Frutar' and TABLE_TYPE='BASE TABLE' AND TABLE_NAME<>'sysdiagrams'
+ORDER BY TABLE_NAME
